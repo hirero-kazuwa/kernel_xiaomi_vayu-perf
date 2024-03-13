@@ -294,15 +294,12 @@ static struct snd_pcm_chmap_elem *convert_chmap(int channels, unsigned int bits,
 
 	chmap->channels = channels;
 
-	if (protocol == UAC_VERSION_3) {
-		switch (channels) {
-		case 1:
-			chmap->map[0] = SNDRV_CHMAP_MONO;
-			break;
-		case 2:
-			chmap->map[0] = SNDRV_CHMAP_FL;
-			chmap->map[1] = SNDRV_CHMAP_FR;
-			break;
+	if (bits) {
+		for (; bits && *maps; maps++, bits >>= 1) {
+			if (bits & 1)
+				chmap->map[c++] = *maps;
+			if (c == chmap->channels)
+				break;
 		}
 	} else {
 		int c = 0;
