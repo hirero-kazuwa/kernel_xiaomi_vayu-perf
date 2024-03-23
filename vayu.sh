@@ -24,7 +24,8 @@ CLANG_DIR=/home/hirero/e/clang/clang
 
 export CONFIG_FILE="vayu_user_defconfig"
 export ARCH="arm64"
-export KBUILD_BUILD_USER=home
+export KBUILD_BUILD_HOST=ぞうしろかずわ
+export KBUILD_BUILD_USER=debian
 
 export PATH="$CLANG_DIR/bin:$PATH"
 
