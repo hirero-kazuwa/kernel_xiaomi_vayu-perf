@@ -388,25 +388,25 @@
 			qcom,gpu-pwrlevel@1 {
 				reg = <1>;
 				qcom,gpu-freq = <675000000>;
-				qcom,bus-freq = <11>;
-				qcom,bus-min = <11>;
-				qcom,bus-max = <11>;
+				qcom,bus-freq = <10>;
+				qcom,bus-min = <9>;
+				qcom,bus-max = <10>;
 			};
 
 			qcom,gpu-pwrlevel@2 {
 				reg = <2>;
 				qcom,gpu-freq = <585000000>;
-				qcom,bus-freq = <10>;
-				qcom,bus-min = <9>;
-				qcom,bus-max = <11>;
+				qcom,bus-freq = <9>;
+				qcom,bus-min = <8>;
+				qcom,bus-max = <9>;
 			};
 
 			qcom,gpu-pwrlevel@3 {
 				reg = <3>;
 				qcom,gpu-freq = <499200000>;
-				qcom,bus-freq = <9>;
-				qcom,bus-min = <8>;
-				qcom,bus-max = <11>;
+				qcom,bus-freq = <8>;
+				qcom,bus-min = <7>;
+				qcom,bus-max = <9>;
 			};
 
 			qcom,gpu-pwrlevel@4 {
@@ -435,10 +435,10 @@
 
 			qcom,gpu-pwrlevel@7 {
 				reg = <7>;
-				qcom,gpu-freq = <128000000>;
+				qcom,gpu-freq = <192000000>;
 				qcom,bus-freq = <2>;
 				qcom,bus-min = <1>;
-				qcom,bus-max = <2>;
+				qcom,bus-max = <3>;
 			};
 
 			qcom,gpu-pwrlevel@8 {
@@ -467,25 +467,25 @@
 			qcom,gpu-pwrlevel@1 {
 				reg = <1>;
 				qcom,gpu-freq = <675000000>;
-				qcom,bus-freq = <11>;
-				qcom,bus-min = <11>;
-				qcom,bus-max = <11>;
+				qcom,bus-freq = <10>;
+				qcom,bus-min = <9>;
+				qcom,bus-max = <10>;
 			};
 
 			qcom,gpu-pwrlevel@2 {
 				reg = <2>;
 				qcom,gpu-freq = <585000000>;
-				qcom,bus-freq = <10>;
-				qcom,bus-min = <9>;
-				qcom,bus-max = <11>;
+				qcom,bus-freq = <9>;
+				qcom,bus-min = <8>;
+				qcom,bus-max = <9>;
 			};
 
 			qcom,gpu-pwrlevel@3 {
 				reg = <3>;
 				qcom,gpu-freq = <499200000>;
-				qcom,bus-freq = <9>;
-				qcom,bus-min = <8>;
-				qcom,bus-max = <11>;
+				qcom,bus-freq = <8>;
+				qcom,bus-min = <7>;
+				qcom,bus-max = <9>;
 			};
 
 			qcom,gpu-pwrlevel@4 {
@@ -514,10 +514,10 @@
 
 			qcom,gpu-pwrlevel@7 {
 				reg = <7>;
-				qcom,gpu-freq = <128000000>;
+				qcom,gpu-freq = <192000000>;
 				qcom,bus-freq = <2>;
 				qcom,bus-min = <1>;
-				qcom,bus-max = <2>;
+				qcom,bus-max = <3>;
 			};
 
 			qcom,gpu-pwrlevel@8 {
