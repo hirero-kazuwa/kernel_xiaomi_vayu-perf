@@ -16,7 +16,7 @@ builddir="${kernel_dir}/build"
 ZIMAGE=$kernel_dir/out/arch/arm64/boot/Image
 
 # Modify the Path according to your location
-TC_DIR=/home/hirero/e/clang/p
+TC_DIR=/home/hirero/e/clang/clang
 CLANG_DIR=/home/hirero/e/clang/clang
 ##
 
